@@ -30,7 +30,6 @@ public class GreeterTest
 	{
 
 		String result = greeter.sayHello("java");
-		// System.out.println(result); impossible dans le cas d'un grand projet
 		Assert.assertEquals("Hello java1", result);
 
 
