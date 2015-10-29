@@ -5,6 +5,8 @@ public class Greeter {
 	public String var1;
 
 	public String var2;
+	
+	public String var3;
 
 	/**
 	 * 
@@ -15,6 +17,8 @@ public class Greeter {
 	 */
 public String sayHello(String name)
 {
+	
+	
 	if(name.equals("MAN"))
 			throw new IllegalArgumentException();
 			return "Hello "+name;

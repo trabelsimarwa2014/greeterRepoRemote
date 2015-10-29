@@ -25,6 +25,14 @@ public class GreeterTest
 		// System.out.println(result); impossible dans le cas d'un grand projet
 		Assert.assertEquals("Hello world", result);
 
+	}
+	public void itShouldSayJAVA()
+	{
+
+		String result = greeter.sayHello("java");
+		// System.out.println(result); impossible dans le cas d'un grand projet
+		Assert.assertEquals("Hello java", result);
+
 
 	}
 	// on s'attend à ce qui cette méthode lève une exception

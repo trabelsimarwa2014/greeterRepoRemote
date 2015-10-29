@@ -14,6 +14,19 @@
 		 
 		 </dependencies>
 		 <distributionManagement>
+		 <build>
+		 <plugins>
+		 <plugin>
+		 <groupId>org.apache.maven.plugins</groupId>
+		 <artifactId>maven-surefire-plugin</artifactId>
+		 <configuration>
+		 <testaFailureIgnore>true</testaFailureIgnore>
+		 </configuration>
+		 </plugin>
+		 
+		 
+		 </plugins>
+		 </build>
 
         <repository>
             <id>nexus</id>
