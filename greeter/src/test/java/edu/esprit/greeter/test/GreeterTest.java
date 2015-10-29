@@ -26,6 +26,8 @@ public class GreeterTest
 		Assert.assertEquals("Hello world", result);
 
 	}
+	
+	@Test
 	public void itShouldSayJAVA()
 	{
 
